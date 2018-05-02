@@ -29,6 +29,7 @@ using the HMM model scoring matrix
 
 #include "BGHMM082.hpp"
 
+using namespace std;
 
 int main(int argc, char **argv)
 {   int Num_searched=0;

@@ -1,20 +1,18 @@
-/**********                   BGHMM.hpp    			*************
+/**********                   BGHMM.hpp         *************
  *********               copy right Lei Zhou            **************/
 
 
-#include <condefs.h>
-#include <iostream.h>
+#include <iostream>
 #include <stdio.h>
-#include <conio.h>
-#include <fstream.h>
+#include <fstream>
 #include <math.h>
-#include <iomanip.h>
+#include <iomanip>
 #include <time.h>
 
 #define FALSE 0
 #define TRUE 1
 #define MAXMATRIX 60  //length of motifs
-#define ALPHEBIT 20
+#define ALPHEBIT 21
 #define ARRSIZE 256
 #define MAXMOTIFS 30
 #define MAXLINE 512
@@ -23,12 +21,14 @@
 #define MAXOUTSEQ 15000
 
 /*searh parameter, could changed to input driven
-																	*/
+                                  */
 #define CHUNKS 2000
 #define MARGIN 30                    //for report & Check_Redundancy
 
 #define NAMESPACE  20             //for extra entry of same sequence
 #pragma hdrstop
+
+using namespace std;
 
 //------ Globals -------------
 
